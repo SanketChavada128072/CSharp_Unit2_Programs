@@ -1,0 +1,26 @@
+/* Write a program to input 2 number and an arithmetic
+operator Display the result accordingly. */
+
+using System;
+
+class Program_2
+{
+    static void Main() 
+    {
+        Console.Write("Enter first number: ");
+        int num1 = int.Parse(Console.ReadLine());
+        
+        Console.Write("Enter second number: ");
+        int num2 = int.Parse(Console.ReadLine());
+        
+        int addition = num1+num2;
+        int subtraction = num1-num2;
+        int multiplication = num1*num2;
+        int division = num1/num2;
+        
+        Console.WriteLine("Addition is: "+ addition);
+        Console.WriteLine("Subtraction is: " + subtraction);
+        Console.WriteLine("Multiplication is: " + multiplication);
+        Console.WriteLine("Division is: " + division);
+    }
+}
