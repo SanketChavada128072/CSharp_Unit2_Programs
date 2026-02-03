@@ -1,0 +1,24 @@
+// Program 5
+// Write a program to input radius of a circle, and print area of that circle.
+
+
+using System;
+
+
+public class Program_5
+{
+    public static void Main()
+    {
+        Console.WriteLine("Enter The Radius: ");
+        double Radius = double.Parse(Console.ReadLine());
+
+
+        double PI = 3.14159;
+
+
+        double Area = PI * Radius * Radius;
+
+
+        Console.WriteLine("The area of that circle is: " + Area);
+    }
+}
