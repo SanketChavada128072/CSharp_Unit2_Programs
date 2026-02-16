@@ -1,0 +1,23 @@
+//   Write a Program to find factorial of given number
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        int fact = 1;
+
+        Console.WriteLine("Enter a Number: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 1; i<=n; i++)
+        {
+            fact *= i;
+        }
+        Console.WriteLine(fact);
+    }
+}
+
+
+ 
+
