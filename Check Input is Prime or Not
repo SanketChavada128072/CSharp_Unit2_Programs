@@ -1,0 +1,32 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter a number: ");
+        int num = int.Parse(Console.ReadLine());
+
+        if (num <= 1)
+        {
+            Console.WriteLine("Not Prime");
+        }
+        else
+        {
+            int i;
+            for (i = 2; i <= num / 2; i++)
+            {
+                if (num % i == 0)
+                {
+                    Console.WriteLine("Not Prime");
+                    break;
+                }
+            }
+            
+            if (i > num / 2)
+            {
+                Console.WriteLine("is Prime");
+            }
+        }
+    }
+}
