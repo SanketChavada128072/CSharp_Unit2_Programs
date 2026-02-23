@@ -1,0 +1,20 @@
+using System;
+
+class SumOfNumbers
+{
+    static void Main()
+    {
+        int n, sum = 0;
+
+        Console.Write("How many numbers: ");
+        n = int.Parse(Console.ReadLine());
+
+        for (int i = 1; i <= n; i++)
+        {
+            Console.Write("Number " + i + ": ");
+            sum += int.Parse(Console.ReadLine());
+        }
+
+        Console.WriteLine("Total Sum = " + sum);
+    }
+}
