@@ -1,0 +1,22 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter Username: ");
+        string username = Console.ReadLine();
+        
+        Console.Write("Enter Password: ");
+        string password = Console.ReadLine();
+
+        if (username == "Sanket" && password == "GTGTGT")
+        {
+            Console.WriteLine("Access Allowed - Welcome Sanket!");
+        }
+        else
+        {
+            Console.WriteLine("Access Denied - Incorrect credentials!");
+        }
+    }
+}
